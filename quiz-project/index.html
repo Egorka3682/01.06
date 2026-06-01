@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="quiz">
+    <h1>Викторина по HTML, CSS и JavaScript</h1>
+
+    <div class="progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <p id="question"></p>
+
+    <div id="answers"></div>
+
+    <button id="nextBtn" onclick="nextQuestion()">Следующий</button>
+
+    <div id="resultBox">
+        <h2 id="resultText"></h2>
+        <button onclick="restartQuiz()">Начать заново</button>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git punch -u origin main
